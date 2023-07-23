@@ -12,7 +12,7 @@ class Var(object):
     API_ID = int(environ.get("API_ID", "9987125"))
     API_HASH = str(environ.get("API_HASH" , "db97d01ceffed9938ef4a6297ba2954e"))
     BOT_TOKEN = str(environ.get("BOT_TOKEN" , "6623257266:AAFPE2uQ2NHAOYi1jSShvMaA-dKDRtOfxVw"))
-    SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
+    SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 mintee
     WORKERS = int(environ.get("WORKERS", "6"))  # 6 workers = 6 commands at once
     BIN_CHANNEL = int(
         environ.get("BIN_CHANNEL", "-1001976431041")
